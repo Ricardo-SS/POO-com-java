@@ -26,6 +26,7 @@ public class q9baralho {
         msgNipe = "espadas";
         break;
       default:
+        System.out.println("Nipe invalida");
         break;
     }
 
@@ -70,9 +71,8 @@ public class q9baralho {
         System.out.println("Rei de " + msgNipe);
         break;    
       default:
+        System.out.println("Carta invalida");
         break;
-
-
     }
     input.close();
   }
