@@ -24,5 +24,7 @@ public class q11cartesiano {
     } else if (y2 < y1) {
       System.out.println("O segundo ponto está abaixo do primeiro.");
     }
+
+    input.close();
   }
 }
