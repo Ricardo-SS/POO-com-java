@@ -62,10 +62,10 @@ public class q9baralho {
         System.out.println(carta + " de " + msgNipe);
         break;
       case 11:
-        System.out.println("Dama de " + msgNipe);
+        System.out.println("Valete de "  + msgNipe);
         break;
       case 12:
-        System.out.println("Valete de " + msgNipe);
+        System.out.println("Dama de " + msgNipe);
         break;
       case 13:
         System.out.println("Rei de " + msgNipe);
