@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 //1. Escreva um programa que calcule a área de um quadrado. O valor do lado de um qua- drado deverá ser informado pelo usuário.
 
 import java.util.Scanner;

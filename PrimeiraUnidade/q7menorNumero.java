@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 // 7. Escreva um programa que lê três números e determina qual número é o menor.
 
 import java.util.Scanner;

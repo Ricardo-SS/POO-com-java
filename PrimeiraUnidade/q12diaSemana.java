@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 //  12. O mês de fevereiro de 2015 começou em um domingo. Escreva um programa que, dado o número de um dia do mês de fevereiro de 2015 (um valor entre 1 e 28), imprime o dia da semana correspondente.
 //  • Exemplo de entrada: 10
 //  • Exemplo de saída: O dia 10 será uma terça-feira.

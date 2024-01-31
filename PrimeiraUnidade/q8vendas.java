@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 // 8. Para alavancar as vendas, uma loja resolveu fazer a seguinte promoção relâmpago em dois setores:
 // No setor de Eletros, que possui código 222, todas as peças que custam mais de R$ 500 vão ter 10% de desconto.
 //No setor de Cama, mesa e banho, que possui código 111, peças com valor acima de R$ 100 vão ter 40% de desconto, peças que custam entre R$ 50 e R$ 100 vão ter 20% de desconto e peças abaixo de R$ 50 vão ter 10% de desconto.

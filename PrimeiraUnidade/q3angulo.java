@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 // 3. Escreva um programa que receba um ângulo em graus e o converta para sua represen- tação em radianos. Divulgue também seno, cosseno, tangente, cossecante, secante e cotangente do ângulo.
 
 import java.util.Scanner;

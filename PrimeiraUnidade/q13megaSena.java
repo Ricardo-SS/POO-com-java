@@ -1,3 +1,4 @@
+package PrimeiraUnidade;
 // 13. Escreva um programa para imprimir uma versão aproximada de um cartão da Mega-Sena (somente com os números, respeitando o número de linhas e a distribuição dos números nas linhas).
 
 public class q13megaSena {
