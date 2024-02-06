@@ -5,18 +5,17 @@ import java.util.Scanner;
 
 public class q2media {
   public static void main (String[] args){
-    float v1, v2, v3, media;
-    Scanner input = new Scanner(System.in);
-    System.out.println("Digite o valor 1");
-    v1 = input.nextFloat();
-    System.out.println("Digite o valor 2");
-    v2 = input.nextFloat();
-    System.out.println("Digite o valor 2");
-    v3 = input.nextFloat();
-    media = (v1+v2+v3)/3;
+    Scanner sc = new Scanner(System.in);
+    double n1, n2, n3, media=0.0;
+    System.out.println("Digite o valor de N1: ");
+    n1 = sc.nextDouble();
+    System.out.println("N2: ");
+    n2 = sc.nextDouble();
+    System.out.println("N3: ");
+    n3 = sc.nextDouble();
+    sc.close();
 
-    System.out.println("Sua media foi: " + media);
-
-    input.close();
+    media = (n1 + n2 + n3)/3;
+    System.out.printf("Meida = %.2f", media);
   }
 }
