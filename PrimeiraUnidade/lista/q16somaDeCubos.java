@@ -2,7 +2,7 @@
 // cubos de seus algarismos sejam iguais ao próprio número
 // Exemplo: 153=1ˆ3 + 5ˆ3 + 3ˆ3 =1+125+27.
 
-package PrimeiraUnidade;
+package PrimeiraUnidade.lista;
 
 public class q16somaDeCubos {
   public static void main(String[] args) {

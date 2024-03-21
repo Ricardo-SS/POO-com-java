@@ -1,4 +1,4 @@
-package PrimeiraUnidade.lista.criacaoDeClasses.q21fatura;
+package PrimeiraUnidade.lista.criacaoDeClasses.q24fatura;
 
 public class DemoFatura {
   public static void main(String[] args){

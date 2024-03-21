@@ -1,4 +1,4 @@
-package PrimeiraUnidade;
+package PrimeiraUnidade.lista;
 // 15. Escreva um programa que escreve os 4 primeiros números perfeitos. Um número perfeito é aquele que é igual à soma dos seus divisores (exceto o próprio número). Exemplos: 6 = 1 + 2 + 3, 28 = 1 + 2 + 4 + 7 + 14.
 
 public class q15numPerfeito {

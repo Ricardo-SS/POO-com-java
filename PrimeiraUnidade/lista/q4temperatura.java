@@ -1,4 +1,4 @@
-package PrimeiraUnidade;
+package PrimeiraUnidade.lista;
 // 4. Escreva um programa que receba uma temperatura em graus centígrados e a apresente em graus Fahrenheit.
 
 import java.util.Scanner;

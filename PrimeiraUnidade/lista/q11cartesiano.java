@@ -1,4 +1,4 @@
-package PrimeiraUnidade;
+package PrimeiraUnidade.lista;
 //11. Escreva um programa que lê dois pontos no plano cartesiano com coordenadas x e y e informa se o segundo ponto está acima, abaixo, à esquerda e/ou à direita do primeiro.
 
 import java.util.Scanner;

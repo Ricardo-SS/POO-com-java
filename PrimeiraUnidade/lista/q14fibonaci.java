@@ -1,4 +1,4 @@
-package PrimeiraUnidade;
+package PrimeiraUnidade.lista;
 import java.util.Scanner;
 
 public class q14fibonaci {
