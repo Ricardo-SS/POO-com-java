@@ -13,9 +13,9 @@ public class q3angulo {
     sc.close();
 
     rad = (angulo * Math.PI)/180;
-    seno = Math.sin(angulo);
-    cosseno = Math.cos(angulo);
-    tangente = Math.tan(angulo);
+    seno = Math.sin(rad);
+    cosseno = Math.cos(rad);
+    tangente = Math.tan(rad);
     coss = 1/seno;
     sec = 1/cosseno;
     cotan = 1/tangente;
