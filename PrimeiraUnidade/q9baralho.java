@@ -9,13 +9,13 @@ public class q9baralho {
 
     System.out.println("Digite o numero da carta: ");
     int carta = input.nextInt();
-    System.out.println("Digite o nipe: (1 = ouros, 2 = paus, 3 = copas e 4 = espadas)");
+    System.out.println("\nDigite o nipe:\n--------------- \n [1] = ouros\n [2] = paus\n [3] = copas\n [4] = espadas\n---------------");
     int nipe = input.nextInt();
     String msgNipe = " ";
 
     switch (nipe) {
       case 1:
-        msgNipe = "outro";
+        msgNipe = "ouros";
         break;
       case 2:
         msgNipe = "paus";
@@ -27,7 +27,7 @@ public class q9baralho {
         msgNipe = "espadas";
         break;
       default:
-        System.out.println("Nipe invalida");
+        System.out.println("ERRO! Nipe invalida");
         break;
     }
 
