@@ -5,22 +5,20 @@ package PrimeiraUnidade;
 import java.util.Scanner;
 
 public class q5invertNumero {
-  public static void main (String[] args){
-    int numero;
-    Scanner input = new Scanner(System.in);
-    System.out.println("Digite um numero de 3 digitos: ");
-    numero = input.nextInt();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite um número de 3 dígitos (CDU): ");
+        int numero = sc.nextInt();
+        sc.close();
 
-    int centena = numero/100;
-    int dezena = (numero % 100)/10;
-    int unidade = numero % 10;
+        // Extrai os dígitos
+        int unidade = numero % 10;
+        int dezena = (numero / 10) % 10;
+        int centena = numero / 100;
 
-    //fazendo a inversao
-    int novoNumero = unidade * 100 + centena * 10 + dezena;
+        // Reescreve no formato UCD
+        int novoNumero = unidade * 100 + dezena * 10 + centena;
 
-    System.out.println("Novo numero: " + novoNumero);
-
-    input.close();
-
-  }
+        System.out.println("Número reescrito no formato UCD: " + novoNumero);
+    }
 }
