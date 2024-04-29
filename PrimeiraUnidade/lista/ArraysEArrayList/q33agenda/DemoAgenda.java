@@ -13,6 +13,6 @@ public class DemoAgenda {
         minhaAgenda.adicionarCompromisso(new EntradaEmAgenda(9, 24, 3, 2024, "Exercícios físicos"));
 
         // Listando os compromissos do seu aniversário (substitua com sua data de aniversário)
-        minhaAgenda.listaDia(23, 3, 2024);
+        minhaAgenda.listaDia(2, 3, 2024);
     }
 }

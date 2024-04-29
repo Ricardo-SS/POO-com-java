@@ -24,19 +24,17 @@ public class q8vendas {
         System.out.print("Preço com desconte: " + novoPreco);
       }
       if (codigo == 111) {
+        System.out.println("Setor Cama, mesa e banho");
         if (preco > 100) {
           novoPreco = preco - (preco * 0.4);
-          System.out.println("Setor Cama, mesa e banho");
           System.out.print("Preço com desconte: " + novoPreco);
         }
         if (preco >= 50 && preco <= 100) {
           novoPreco = preco - (preco * 0.2);
-          System.out.println("Setor Cama, mesa e banho");
           System.out.print("Preço com desconte: " + novoPreco);
         }
         if (preco < 50) {
           novoPreco = preco - (preco * 0.1);
-          System.out.println("Setor Cama, mesa e banho");
           System.out.print("Preço com desconte: " + novoPreco);
         }
       }

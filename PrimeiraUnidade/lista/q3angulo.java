@@ -22,5 +22,7 @@ public class q3angulo {
     System.out.printf("Angura em Rad %.2f\n", rad);
     System.out.println("Seno = " + seno + "\nCosseno = " + cosseno + "\nTangente = " + tangente);
     System.out.println("Cossecante = " + coss + "\nSecante = " + sec + "\nCotagente = " + cotan);
+
+    sc.close();
   }
 }
