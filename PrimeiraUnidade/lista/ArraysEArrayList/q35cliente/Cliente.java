@@ -2,9 +2,6 @@
 
 package PrimeiraUnidade.lista.ArraysEArrayList.q35cliente;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 class Cliente {
     //argumentos
     private int id;

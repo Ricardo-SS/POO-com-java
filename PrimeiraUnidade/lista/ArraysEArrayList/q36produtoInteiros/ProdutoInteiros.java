@@ -1,12 +1,14 @@
 // 36. Escreva um aplicativo que calcula o produto de uma série de inteiros que são passados para método produto utilizando uma lista de argumentos de comprimento variável. Teste seu método com várias chamadas, cada uma com um número diferente de argumentos.
 
-packege PrimeiraUnidade.lista.q36produtoInteiros.ProdutoInteiros;
-
-import java.util.ArrayList;
-import java.util.Scanner;
+package PrimeiraUnidade.lista.ArraysEArrayList.q36produtoInteiros;
 
 public class ProdutoInteiros {
-    public static void main(String[] args){
-        int resultado = 1
+    public static int produto(int... numeros) {
+        int resultado = 1;
+        for (int num : numeros) {
+            resultado *= num;
+        }
+        return resultado;
     }
 }
+

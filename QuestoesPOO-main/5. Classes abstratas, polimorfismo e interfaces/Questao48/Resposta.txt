@@ -1,0 +1,1 @@
+Elementos escritos com a palavra 'abstract' não pode ser chadados ou instanciados, então não faz sentido (e da erro de compilação) escrever construtores abstratos já que o propósito deles é ser utilizados/chamados ao instanciar uma classe.

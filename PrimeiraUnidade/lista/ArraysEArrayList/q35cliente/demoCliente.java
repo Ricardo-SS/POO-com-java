@@ -28,5 +28,6 @@ public class demoCliente {
         for (Cliente cliente : clientes) {
             System.out.println(cliente);
         }
+        scanner.close();
     }
 }

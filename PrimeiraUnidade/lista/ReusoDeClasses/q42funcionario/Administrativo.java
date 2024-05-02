@@ -1,17 +1,13 @@
 package PrimeiraUnidade.lista.ReusoDeClasses.q42funcionario;
 
 public class Administrativo extends Assistente {
-    private String turno;
-    private double adicionalNoturno;
-
-    public Administrativo(String nome, double salario, int matricula, String turno, double adicionalNoturno) {
-        super(nome, salario, matricula);
-        this.turno = turno;
-        this.adicionalNoturno = adicionalNoturno;
+    public Administrativo(String nome, double salario, int numeroMatricula) {
+        super(nome, salario, numeroMatricula);
     }
 
     @Override
     public double ganhoAnual() {
+        // Implementação do ganho anual para Assistente Administrativo
         return super.ganhoAnual();
     }
 }
