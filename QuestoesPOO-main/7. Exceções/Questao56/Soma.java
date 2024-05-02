@@ -8,9 +8,10 @@ public class Soma {
         num2 = obterIntValido();
 
         System.out.println("\nA soma dos dois números é igual a " + (num1 + num2) + ".");
+        
     }
 
-    public static int obterIntValido(){
+    public static int obterIntValido() {
         Scanner input = new Scanner(System.in);
         int num = 0;
 
@@ -21,8 +22,6 @@ public class Soma {
             System.out.println("\n" + e);
             System.out.println("Número incorreto!!!");
             return obterIntValido();
-        } finally {
-            input.close();
         }
 
         return num;
